@@ -1,0 +1,152 @@
+[
+  {
+    "nombre": "grillo",
+    "tipo": "invertebrado",
+    "descripcion": "el grillo es un insecto perteneciente al orden de los ortópteros. Son herbívoros, alimentándose de hojas, plantas y otros materiales vegetales, los grillos desempeñan un papel importante en el equilibrio ecológico al actuar como descomponedores y ayudar en la descomposición de materia orgánica.",
+    "img": "grillo.jpg"
+  },
+  {
+    "nombre": "tigre",
+    "tipo": "vertebrado",
+    "descripcion": "el tigre, majestuoso felino perteneciente al género Panthera, se destaca como uno de los grandes carnívoros del reino animal. Caracterizado por su imponente presencia y habilidades de caza excepcionales, el tigre es un ejemplo extraordinario de vertebrado.",
+    "img": "tigre.jpg"
+  },
+  {
+    "nombre": "mosca",
+    "tipo": "invertebrado",
+    "descripcion": "es un insecto perteneciente al orden de los dípteros, que se caracteriza por tener un par de alas funcionales y un par de halterios, que son estructuras pequeñas parecidas a alas pero que cumplen funciones relacionadas con el equilibrio durante el vuelo.",
+    "img": "mosca.jpg"
+  },
+  {
+    "nombre": "panda",
+    "tipo": "vertebrados",
+    "descripcion": "los pandas son criaturas majestuosas y reconocibles al instante. Pertenece a la familia Ursidae y es un mamífero carnívoro, aunque su dieta está compuesta principalmente de bambú.",
+    "img": "panda.jpg"
+  },
+  {
+    "nombre": "elefante",
+    "tipo": "vertebrado",
+    "descripcion": "los elefantes son los animales terrestres más grandes del mundo, pertenecen a la familia Elephantidae y tienen una estructura ósea robusta, trompas distintivas y colmillos largos.",
+    "img": "elefante.jpg"
+  },
+  {
+    "nombre": "cucaracha",
+    "tipo": "invertebrado",
+    "descripcion": "las cucarachas son insectos pertenecientes al orden Blattodea. Tienen un exoesqueleto resistente y son conocidas cpor su capacidad de adaptación y vuelo.",
+    "img": "cucaracha.jpg"
+  },
+  {
+    "nombre": "cerdo",
+    "tipo": "vertebrado",
+    "descripcion": "los cerdos son mamíferos pertenecientes a la familia Suidae. Tienen un cuerpo robusto, pezuñas y hocicos flexibles y son domesticados en diversas culturas para la carne",
+    "img": "cerdo.jpg"
+  },
+  {
+    "nombre": "lombriz",
+    "tipo": "invertebrado",
+    "descripcion": "las lombrices son anélidos, pertenecen al grupo de gusanos segmentados. Su cuerpo es alargado y segmentado, y son conocidas por su papel en la mejora de la calidad del suelo.",
+    "img": "lombriz.jpg"
+  },
+  {
+    "nombre": "libélula",
+    "tipo": "invertebrado",
+    "descripcion": "las libélulas pertenecen al orden Odonata. Tienen cuerpos alargados, dos pares de alas transparentes y son depredadoras ágiles en vuelo.",
+    "img": "libelula.jpg"
+  },
+  {
+    "nombre": "medusa",
+    "tipo": "invertebrado",
+    "descripcion": "las medusas son cnidarios, organismos marinos gelatinosos. Tienen tentáculos urticantes y cuerpos en forma campana, flotando en los océanos.",
+    "img": "medusa.jpg"
+  },
+  {
+    "nombre": "paloma",
+    "tipo": "vertebrado",
+    "descripcion": "las palomas son aves pertenecientes a la familia Columbidae. Tiene plumaje suave, picos adaptados para picotear granos y son comunes en entornos urbanos.",
+    "img": "paloma.jpg"
+  },
+  {
+    "nombre": "colibrí",
+    "tipo": "vertebrado",
+    "descripcion": "los colibríes son aves pequeñas y coloridas pertenecientes a la familia Trochilidae. Tienen alas rápidas, picos alargados y son conocidos por su capacidad de vuelo estacionario.",
+    "img": "colibri.jpg"
+  },
+  {
+    "nombre": "mariposa",
+    "tipo": "invertebrado",
+    "descripcion": "las mariposas perteneces al orden Lepidotera. Tienen alas coloridas y cubiertas de escamas, antenas y son conocidas por sus patrones de vuelo delicado.",
+    "img": "mariposa.jpg"
+  },
+  {
+    "nombre": "caballo",
+    "tipo": "vertebrado",
+    "descripcion": "los caballos son mamíferos herbívoros domesticados. Tiene extremidades alargadas, pezuñas y son conocidos por su papel histórico en actividades humanas.",
+    "img": "caballo.jpg"
+  },
+  {
+    "nombre": "nutria",
+    "tipo": "vertebrado",
+    "descripcion": "las nutrias son mamíferos semicuáticos pertenecientes a la familia Mustelidae. Tienen pelaje denso, patas palmeadas y son hábiles nadadoras.",
+    "img": "nutria.jpg"
+  },
+  {
+    "nombre": "leon",
+    "tipo": "vertebrado",
+    "descripcion": "los leones son grandes felinos que forman parte de la familia Felidae. Tienen cuerpos musculosos, meenas en los machos y son depredadores sociales.",
+    "img": "leon.jpg"
+  },
+  {
+    "nombre": "serpiente",
+    "tipo": "vertebrado",
+    "descripcion": "las serpientes son reptiles sin extremidades pertenecientes al suborden Serpentes, Tienen cuerpos alargados y escamas, y son conocidas por su método de movimiento sin extremidades.",
+    "img": "serpiente.jpg"
+  },
+  {
+    "nombre": "perro",
+    "tipo": "vertebrado",
+    "descripcion": "los perros son mamíferos domesticados pertenecientes a la familia Canidae. Tienen una amplia variedad de razas, tamaños y comportamientos, y han sido compañeros leales de los humanos durante siglos.",
+    "img": "perro.jpg"
+  },
+  {
+    "nombre": "gato",
+    "tipo": "vertebrado",
+    "descripcion": "los gatos son mamíferos domésticos pertenecientes a la familia Felidae. Tiene cuerpos ágiles, garras retráctiles y son conocidos por su comportamiento independiente.",
+    "img": "gato.jpg"
+  },
+  {
+    "nombre": "venado",
+    "tipo": "vertebrado",
+    "descripcion": "los venados son mamíferos pertenecientes a la familia Cervidae. Tienen astas ramificadas, pezuñas y son animales herbívoros.",
+    "img": "venado.jpg"
+  },
+  {
+    "nombre": "estrella de mar",
+    "tipo": "invertebrado",
+    "descripcion": "las estrellas de mar son equinodermos marinos con cuerpos radiales y brazos tubulares. Tienen un sistema vascular acuático y son capaces de regenerar extrmidades.",
+    "img": "estrella.jpg"
+  },
+  {
+    "nombre": "araña",
+    "tipo": "invertebrado",
+    "descripcion": "las arañas son arácnidos pertenecientes al orden Aranae. Tienen cuerpos divididos en tórax y abdomen, ocho patas y producen seda para tejer telas.",
+    "img": "arania.jpg"
+  },
+  {
+    "nombre": "caracol",
+    "tipo": "invertebrado",
+    "descripcion": "los caracoles son moluscos pertenecientes a la clase Gastropoda. Tienen conchas espirales y se mueven mediante una estructura llamada pie.",
+    "img": "caracol.jpg"
+  },
+  {
+    "nombre": "pulpo",
+    "tipo": "invertebrado",
+    "descripcion": "los pulpos son moluscos cefalópodos marinos. Tienen cuerpos suaves brazos tentaculares y son conocidos por su inteligencia y capacidad de cambiar de color.",
+    "img": "pulpo.jpg"
+  },
+  {
+    "nombre": "escorpion",
+    "tipo": "invertebrado",
+    "descripcion": "los escorpiones son arácnidos pertenecientes al orden Scorpiones. Tienen pinzas, un aguijón venenoso y son conocidos por su apariencia intimidante.",
+    "img": "escorpion.jpg"
+  }
+]
