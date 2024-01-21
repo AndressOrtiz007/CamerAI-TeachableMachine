@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FuncionActivity"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:liftOnScroll="true">
+
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:minHeight="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_arrow_back_24"
+            app:navigationIconTint="@color/white"
+            app:title="INSTRUCCIONES"
+            app:titleCentered="true" />
+        </com.google.android.material.appbar.AppBarLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="64dp"
+        android:layout_marginTop="60dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="1. Selecciona la opciòn desde donde deseas obtener tu imagen"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="16dp"
+            android:text="- 'Camara' si deseas tomar la foto"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="50dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textSize="16dp"
+            android:text="- 'Galeria' si deseas cargar la imagen desde tu celular"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="50dp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="2. Espera y analiza tus resultados"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            tools:ignore="HardcodedText,SpUsage" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:text="3. Si deseas realizar una nueva consulta presiona el boton 'Regresar'."
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            tools:ignore="HardcodedText,SpUsage" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

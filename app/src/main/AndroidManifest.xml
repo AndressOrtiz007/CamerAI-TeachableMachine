@@ -2,18 +2,18 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
     <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <queries>
         <intent>
             <action android:name="android.intent.action.PICK" />
+
             <data android:mimeType="image/*" />
         </intent>
     </queries>
-
 
     <application
         android:allowBackup="true"
@@ -25,6 +25,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CamerAI"
         tools:targetApi="31">
+        <activity
+            android:name=".FuncionActivity"
+            android:exported="false" />
         <activity
             android:name=".DescriptionActivity"
             android:exported="false"

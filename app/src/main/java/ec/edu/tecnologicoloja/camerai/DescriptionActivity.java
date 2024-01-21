@@ -7,23 +7,23 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.bumptech.glide.Glide;
-
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.charset.StandardCharsets;
+import com.google.android.material.appbar.MaterialToolbar;
+
 
 
 public class DescriptionActivity extends AppCompatActivity {
     TextView txt_title,txt_type,txt_description;
     ImageView img_animal;
     Button btn_back;
+    MaterialToolbar  topAppBar;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,8 +35,12 @@ public class DescriptionActivity extends AppCompatActivity {
         txt_description = findViewById(R.id.txt_description);
         img_animal = findViewById(R.id.imgAnimal);
         btn_back = findViewById(R.id.backButton);
+        topAppBar = findViewById(R.id.topAppBar);
 
         btn_back.setOnClickListener(v -> finish());
+
+
+        topAppBar.setNavigationOnClickListener(v -> finish());
 
 
         String animal = getIntent().getStringExtra("TEXTO_EXTRA");

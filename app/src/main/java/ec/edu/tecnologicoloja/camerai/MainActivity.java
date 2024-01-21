@@ -32,7 +32,7 @@ import ec.edu.tecnologicoloja.camerai.ml.ModelUnquant;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = "MainActivity";
     private static final int PERMISSION_STATE = 0;
-    Button btn_camera, btn_gallery;
+    Button btn_camera, btn_gallery, btn_ins;
     private Bitmap bitmap;
     String[] animales={"grillo","tigre","mosca","panda","elefante","cucaracha","cerdo","lombriz","libélula","medusa","paloma","colibrí","mariposa","caballo","nutria","leon","serpiente","perro","gato","venado","estrella de mar","araña","caracol","pulpo","escorpion"};
 
@@ -42,9 +42,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         btn_camera = findViewById(R.id.btn_camera);
         btn_gallery = findViewById(R.id.btn_galery);
+        btn_ins = findViewById(R.id.btn_ins);
 
         btn_camera.setOnClickListener(this);
         btn_gallery.setOnClickListener(this);
+        btn_ins.setOnClickListener(this);
         checkAndRequestPermissions();
 
     }
@@ -133,8 +135,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         } else if (view.getId() == R.id.btn_galery) {
             Log.e("onClick: ", "onClick: " + "openGallery");
             openGallery();
-
-
+        }else if(view.getId() == R.id.btn_ins){
+            Intent intent = new Intent(this,FuncionActivity.class);
+            startActivity(intent);
         }
 
     }
